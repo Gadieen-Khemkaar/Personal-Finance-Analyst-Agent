@@ -1,0 +1,25 @@
+# Core
+pandas
+numpy
+
+# Visualization
+matplotlib
+plotly
+
+# Web App
+streamlit
+
+# AI / Agentic Layer
+langchain
+openai
+tiktoken
+
+# Optional (for embeddings & vector storage if needed)
+faiss-cpu
+
+# PDF Reporting
+fpdf
+reportlab
+
+# Utilities
+python-dotenv
