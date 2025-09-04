@@ -71,7 +71,7 @@ This app is deployed on **Streamlit Cloud**.
 
 **Gadieen Khemkaar**
 
-* 💼 [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/gadieen-khemkaar-045206293/))
+* 💼 [LinkedIn](https://www.linkedin.com/in/gadieen-khemkaar-045206293/)
 * 🐙 [GitHub](https://github.com/Gadieen-Khemkaar)
 
 ---
