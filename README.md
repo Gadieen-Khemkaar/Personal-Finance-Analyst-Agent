@@ -1,79 +1,46 @@
-# 💰 Personal Finance Analyst Agent
+# 💰 Personal Finance Analyst Agent  
 
-## 📌 Overview
+An AI-powered personal finance analyst that helps you analyze your spending habits, categorize transactions, and visualize insights.  
 
-The **Personal Finance Analyst Agent** is an **AI-powered tool** that helps users analyze their bank statements with ease.
-It automatically:
-
-* Categorizes transactions (Food, Travel, Shopping, Bills, Salary, etc.).
-* Detects anomalies and unusual spending patterns.
-* Generates interactive **dashboards and charts**.
-* Answers **natural language questions** like:
-
-  * *“How much did I spend on Zomato last month?”*
-  * *“Which category had the highest expenses in July?”*
-  * *“Show me suspicious transactions > ₹10,000.”*
-
-This project demonstrates **agentic AI**, **data analysis**, and **automation** — making it a practical resume-ready project.
+🔗 **Live Demo:** [Try it here](https://personal-finance-analyst-agent-ba9aejl4jz7viauxbisdww.streamlit.app/)  
 
 ---
 
-## ✨ Features
+## ✨ Features  
 
-* 📂 Upload CSV/Excel bank statements.
-* 🧾 Automatic expense categorization (rule-based + LLM-powered).
-* 📊 Interactive dashboard with charts (Streamlit + Plotly/Matplotlib).
-* 🤖 AI-powered financial assistant (LangChain + LLMs).
-* ⚠️ Anomaly detection for unusual spending.
-* 📑 Exportable monthly PDF financial report.
-
----
-
-## 🛠️ Tech Stack
-
-* **Language:** Python 3
-* **Data Handling:** Pandas, SQLite (optional)
-* **AI Agent:** LangChain + OpenAI/Groq API
-* **Frontend:** Streamlit
-* **Visualization:** Matplotlib / Plotly
-* **Reporting:** FPDF / ReportLab
+- 📂 Upload your bank/expense CSV file (`Date, Description, Amount`)  
+- 📊 Quick stats: total transactions & total spend  
+- 🧠 Auto-categorization of expenses (Food, Transport, Shopping, etc.)  
+- 🥧 Category-wise breakdown with Pie Chart  
+- 📈 Daily spend trend visualization (Bar Chart)  
+- 📋 Category summary table (spend in ₹ and % of total)  
 
 ---
 
-## 📂 Project Structure
+## 🛠️ Tech Stack  
 
-```
-├── data/               # Sample bank statement CSVs
-├── src/                # Source code
-│   ├── preprocessing.py
-│   ├── categorization.py
-│   ├── agent.py
-│   ├── dashboard.py
-│   └── report_generator.py
-├── app.py              # Streamlit main app
-├── requirements.txt    # Dependencies
-├── ROADMAP.md          # Project execution plan
-└── README.md           # Project documentation
-```
+- **Python**  
+- **Streamlit** – interactive UI & deployment  
+- **Pandas** – data handling  
+- **Matplotlib** – charts & visualizations  
 
 ---
 
-## ⚡ Quick Start
+## 🚀 Getting Started (Local Setup)  
 
-### 1️⃣ Clone the Repository
-
+Clone the repo:  
 ```bash
-git clone https://github.com/your-username/personal-finance-analyst.git
-cd personal-finance-analyst
-```
+git clone https://github.com/Gadieen-Khemkaar/Personal-Finance-Analyst-Agent.git
+cd Personal-Finance-Analyst-Agent
+````
 
-### 2️⃣ Install Dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the App
+Run the app:
 
 ```bash
 streamlit run app.py
@@ -81,19 +48,33 @@ streamlit run app.py
 
 ---
 
-## 🗓️ Project Roadmap
+## 🌍 Deployment
 
-Check out the detailed [ROADMAP.md](./ROADMAP.md) to see how this project was planned and executed step by step.
-
----
-
-## 🎥 Demo
-
-🚧 *Coming soon – add a GIF or video demo here once the app is functional.*
+This app is deployed on **Streamlit Cloud**.
+🔗 **Live App:** [Personal Finance Analyst Agent](https://personal-finance-analyst-agent-ba9aejl4jz7viauxbisdww.streamlit.app/)
 
 ---
 
-## 📌 Resume Pitch
+## 📌 Roadmap
 
-> *Built an agentic AI Personal Finance Analyst that processes bank statements, auto-categorizes transactions using LLMs, detects anomalies, generates interactive dashboards, and answers natural language queries about spending trends. Deployed as a Streamlit app with PDF report generation.*
+* [x] CSV Upload & Parsing
+* [x] Quick Stats (total spend, transactions)
+* [x] Auto-categorization of expenses
+* [x] Visualization (Pie + Bar charts)
+* [x] Summary Table
+* [x] Deployment on Streamlit Cloud
+* [ ] AI-powered insights & recommendations (future)
+
+---
+
+## 👤 Author
+
+**Gadieen Khemkaar**
+
+* 💼 [LinkedIn](https://www.linkedin.com/)
+* 🐙 [GitHub](https://github.com/Gadieen-Khemkaar)
+
+---
+
+⭐ If you found this project interesting, feel free to **star this repo**!
 
